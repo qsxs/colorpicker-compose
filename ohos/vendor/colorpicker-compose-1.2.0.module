@@ -1,0 +1,530 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.skydoves",
+    "module": "colorpicker-compose",
+    "version": "1.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.11.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "colorpicker-compose-metadata.jar",
+          "url": "colorpicker-compose-1.2.0.jar",
+          "size": 17716,
+          "sha512": "ed323f413e8f8b3be7d14d306853e28fc8669674d02a08709ece1bd21528fb4f2599dc52b698c6273a7664253addc211ef8a7090494c2e73491f29f68450ffda",
+          "sha256": "149b9b51fb402f07e4708d727e3c3dc93113fe6078b6b10d7043134710820210",
+          "sha1": "4a4534c760bac8c09caf4724351699401a3688a6",
+          "md5": "4ae5ad98e79062c53bcd976622b2cf0f"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "colorpicker-compose-kotlin-sources.jar",
+          "url": "colorpicker-compose-1.2.0-sources.jar",
+          "size": 31132,
+          "sha512": "e1b361d9b4fd8396de804d739d0e3b611ff9f5641468cd622cb7010f04a06986bdc78f60425880dd3a1106262d4c1330665228c46dcdc514de5bc3a7723fe53e",
+          "sha256": "c93a70281c1851438fadcbdf57fa8b70ce501077f849c5436f411011aa43636f",
+          "sha1": "c4ed8668417587fa0c42b75713486a6c2cf4f358",
+          "md5": "572d2842e0b03219005c0f57720fc2f9"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../colorpicker-compose-android/1.2.0/colorpicker-compose-android-1.2.0.module",
+        "group": "com.github.skydoves",
+        "module": "colorpicker-compose-android",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../colorpicker-compose-android/1.2.0/colorpicker-compose-android-1.2.0.module",
+        "group": "com.github.skydoves",
+        "module": "colorpicker-compose-android",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../colorpicker-compose-android/1.2.0/colorpicker-compose-android-1.2.0.module",
+        "group": "com.github.skydoves",
+        "module": "colorpicker-compose-android",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../colorpicker-compose-desktop/1.2.0/colorpicker-compose-desktop-1.2.0.module",
+        "group": "com.github.skydoves",
+        "module": "colorpicker-compose-desktop",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../colorpicker-compose-desktop/1.2.0/colorpicker-compose-desktop-1.2.0.module",
+        "group": "com.github.skydoves",
+        "module": "colorpicker-compose-desktop",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../colorpicker-compose-desktop/1.2.0/colorpicker-compose-desktop-1.2.0.module",
+        "group": "com.github.skydoves",
+        "module": "colorpicker-compose-desktop",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../colorpicker-compose-iosarm64/1.2.0/colorpicker-compose-iosarm64-1.2.0.module",
+        "group": "com.github.skydoves",
+        "module": "colorpicker-compose-iosarm64",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../colorpicker-compose-iosarm64/1.2.0/colorpicker-compose-iosarm64-1.2.0.module",
+        "group": "com.github.skydoves",
+        "module": "colorpicker-compose-iosarm64",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../colorpicker-compose-iosarm64/1.2.0/colorpicker-compose-iosarm64-1.2.0.module",
+        "group": "com.github.skydoves",
+        "module": "colorpicker-compose-iosarm64",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../colorpicker-compose-iosarm64/1.2.0/colorpicker-compose-iosarm64-1.2.0.module",
+        "group": "com.github.skydoves",
+        "module": "colorpicker-compose-iosarm64",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../colorpicker-compose-iossimulatorarm64/1.2.0/colorpicker-compose-iossimulatorarm64-1.2.0.module",
+        "group": "com.github.skydoves",
+        "module": "colorpicker-compose-iossimulatorarm64",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../colorpicker-compose-iossimulatorarm64/1.2.0/colorpicker-compose-iossimulatorarm64-1.2.0.module",
+        "group": "com.github.skydoves",
+        "module": "colorpicker-compose-iossimulatorarm64",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../colorpicker-compose-iossimulatorarm64/1.2.0/colorpicker-compose-iossimulatorarm64-1.2.0.module",
+        "group": "com.github.skydoves",
+        "module": "colorpicker-compose-iossimulatorarm64",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../colorpicker-compose-iossimulatorarm64/1.2.0/colorpicker-compose-iossimulatorarm64-1.2.0.module",
+        "group": "com.github.skydoves",
+        "module": "colorpicker-compose-iossimulatorarm64",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../colorpicker-compose-js/1.2.0/colorpicker-compose-js-1.2.0.module",
+        "group": "com.github.skydoves",
+        "module": "colorpicker-compose-js",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../colorpicker-compose-js/1.2.0/colorpicker-compose-js-1.2.0.module",
+        "group": "com.github.skydoves",
+        "module": "colorpicker-compose-js",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../colorpicker-compose-js/1.2.0/colorpicker-compose-js-1.2.0.module",
+        "group": "com.github.skydoves",
+        "module": "colorpicker-compose-js",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "name": "jsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../colorpicker-compose-js/1.2.0/colorpicker-compose-js-1.2.0.module",
+        "group": "com.github.skydoves",
+        "module": "colorpicker-compose-js",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../colorpicker-compose-macosarm64/1.2.0/colorpicker-compose-macosarm64-1.2.0.module",
+        "group": "com.github.skydoves",
+        "module": "colorpicker-compose-macosarm64",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../colorpicker-compose-macosarm64/1.2.0/colorpicker-compose-macosarm64-1.2.0.module",
+        "group": "com.github.skydoves",
+        "module": "colorpicker-compose-macosarm64",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "name": "macosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../colorpicker-compose-macosarm64/1.2.0/colorpicker-compose-macosarm64-1.2.0.module",
+        "group": "com.github.skydoves",
+        "module": "colorpicker-compose-macosarm64",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../colorpicker-compose-macosarm64/1.2.0/colorpicker-compose-macosarm64-1.2.0.module",
+        "group": "com.github.skydoves",
+        "module": "colorpicker-compose-macosarm64",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../colorpicker-compose-wasm-js/1.2.0/colorpicker-compose-wasm-js-1.2.0.module",
+        "group": "com.github.skydoves",
+        "module": "colorpicker-compose-wasm-js",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../colorpicker-compose-wasm-js/1.2.0/colorpicker-compose-wasm-js-1.2.0.module",
+        "group": "com.github.skydoves",
+        "module": "colorpicker-compose-wasm-js",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../colorpicker-compose-wasm-js/1.2.0/colorpicker-compose-wasm-js-1.2.0.module",
+        "group": "com.github.skydoves",
+        "module": "colorpicker-compose-wasm-js",
+        "version": "1.2.0"
+      }
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../colorpicker-compose-wasm-js/1.2.0/colorpicker-compose-wasm-js-1.2.0.module",
+        "group": "com.github.skydoves",
+        "module": "colorpicker-compose-wasm-js",
+        "version": "1.2.0"
+      }
+    }
+  ]
+}

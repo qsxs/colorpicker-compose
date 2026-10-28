@@ -1,0 +1,197 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../colorpicker-compose/1.2.0/colorpicker-compose-1.2.0.module",
+    "group": "com.github.skydoves",
+    "module": "colorpicker-compose",
+    "version": "1.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.11.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "colorpicker-compose-iosArm64Main.klib",
+          "url": "colorpicker-compose-iosarm64-1.2.0.klib",
+          "size": 126360,
+          "sha512": "d5f5b2b8caa55559ead2a6eec3aa8d7079a6935930561c78a8039260cfddcd1217b8d8a770738d1765ea64de7aa3190d5ec23ca705ca603144085868133f24ea",
+          "sha256": "7c264bb2e907ef09a28a48fd2457f3dea335851a2ed130beeab93d171348183a",
+          "sha1": "21140c3db509a43c570b65dd02d6d58f9ae166b4",
+          "md5": "91bbd6d6075d6906844b16ab6251a271"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "colorpicker-compose-iosarm64-sources.jar",
+          "url": "colorpicker-compose-iosarm64-1.2.0-sources.jar",
+          "size": 31132,
+          "sha512": "e1b361d9b4fd8396de804d739d0e3b611ff9f5641468cd622cb7010f04a06986bdc78f60425880dd3a1106262d4c1330665228c46dcdc514de5bc3a7723fe53e",
+          "sha256": "c93a70281c1851438fadcbdf57fa8b70ce501077f849c5436f411011aa43636f",
+          "sha1": "c4ed8668417587fa0c42b75713486a6c2cf4f358",
+          "md5": "572d2842e0b03219005c0f57720fc2f9"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.11.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "colorpicker-compose.kotlin_resources.zip",
+          "url": "colorpicker-compose-iosarm64-1.2.0-kotlin_resources.kotlin_resources.zip",
+          "size": 372,
+          "sha512": "5abd37c695388e75141df647622c01c871c978b3222376a143d7e2309e90af2e06ed73c2cefc2778f963529daea38d558b05b2c389f96484c260dd4949e4119f",
+          "sha256": "cb2810ba9d542a91961e5a82a44a2a1277c0e0d72e706b545eaa1e73d1cab04f",
+          "sha1": "3344abd4aa8238e95c84c26d41468dedbcf3e209",
+          "md5": "ac6577ca53839655aef6b94aa613953b"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.11.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "colorpicker-compose-iosarm64-metadata.jar",
+          "url": "colorpicker-compose-iosarm64-1.2.0-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

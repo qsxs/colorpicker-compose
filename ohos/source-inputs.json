@@ -1,0 +1,653 @@
+{
+  "schemaVersion": 1,
+  "policy": "COMPLETE_OFFICIAL_COMMONMAIN_SOURCES_ORIGINAL_BYTES_NO_PATCHES",
+  "archiveEntryCount": 29,
+  "kotlinSourceCount": 21,
+  "sourceSetDigest": "SHA256 of compact JSON sorted keys, sorted by member; fields member,size,sha256 for all Kotlin members",
+  "sourceSetSha256": "f57dbc4d60c3b247580ebfe8f9ea1a0cf5350406935d029ddbafa4c63a431d67",
+  "sourceMembers": [
+    {
+      "member": "commonMain/com/github/skydoves/colorpicker/compose/AlphaSlider.kt",
+      "size": 3682,
+      "sha256": "2a028b4fcfbb065ed648833964fdec9022388614c8a04ebab0ad3bd11c26cded"
+    },
+    {
+      "member": "commonMain/com/github/skydoves/colorpicker/compose/AlphaTile.kt",
+      "size": 2653,
+      "sha256": "c696609addb61d90190881c7fa252f58155b919133a3d5f4d2763b8cfd7c8e36"
+    },
+    {
+      "member": "commonMain/com/github/skydoves/colorpicker/compose/AlphaTilePaint.kt",
+      "size": 2117,
+      "sha256": "5f6c639af0d33a67006473b4693493cba22e56633dfc9fe09a5de648288ce584"
+    },
+    {
+      "member": "commonMain/com/github/skydoves/colorpicker/compose/BrightnessSlider.kt",
+      "size": 3151,
+      "sha256": "bad60b77e95eb260a4c47b95d0fee97e288a7f9eeeac3396017c4075f4b42126"
+    },
+    {
+      "member": "commonMain/com/github/skydoves/colorpicker/compose/CanvasExtensions.kt",
+      "size": 1494,
+      "sha256": "4a14d9e77c1a98cfd4630ce6bd4489bdf05946e29760bbb55853d549540d91a4"
+    },
+    {
+      "member": "commonMain/com/github/skydoves/colorpicker/compose/ColorChangeSource.kt",
+      "size": 1116,
+      "sha256": "4fffff6d3c2a86337d784d64c7ba44e157d2683394365d5720cdb84c7935ef47"
+    },
+    {
+      "member": "commonMain/com/github/skydoves/colorpicker/compose/ColorEnvelope.kt",
+      "size": 1218,
+      "sha256": "b2d80e2f43512cbd2d8a8267c224a677149848208a090b5b6c8b5f508ca156e4"
+    },
+    {
+      "member": "commonMain/com/github/skydoves/colorpicker/compose/ColorExtensions.kt",
+      "size": 1931,
+      "sha256": "d68914fe3e1fb1a7a7c11ca168bc7e28a8cf4cb0801f719822190224e0676177"
+    },
+    {
+      "member": "commonMain/com/github/skydoves/colorpicker/compose/ColorPicker.kt",
+      "size": 5391,
+      "sha256": "76877b572b92de9339f720b6208043253ff7faedcab306ac5901cb6cb7d38190"
+    },
+    {
+      "member": "commonMain/com/github/skydoves/colorpicker/compose/ColorPickerController.kt",
+      "size": 14031,
+      "sha256": "06706c3d0d0a56e2f7435c678e0cdbd8feb9d9e6742a7f99216bcd6af6ba7bf6"
+    },
+    {
+      "member": "commonMain/com/github/skydoves/colorpicker/compose/DefaultColors.kt",
+      "size": 832,
+      "sha256": "755d9bf89125b60ee7798f8d706bacc0108c8813f6a0696e8f78608fdbdbdd9c"
+    },
+    {
+      "member": "commonMain/com/github/skydoves/colorpicker/compose/DrawScopeExtensions.kt",
+      "size": 1348,
+      "sha256": "f9cea3e71d9d9eb20b513f876a6edae2734fa7107e3d36490c67221791427ff7"
+    },
+    {
+      "member": "commonMain/com/github/skydoves/colorpicker/compose/GeometryExtensions.kt",
+      "size": 2096,
+      "sha256": "8304bc3258bf7242b9fc3530d86a9cc0f389842cc70e0e5e795f0876e507a0b1"
+    },
+    {
+      "member": "commonMain/com/github/skydoves/colorpicker/compose/HsvColorGradient.kt",
+      "size": 1997,
+      "sha256": "fabde2fcda0ea8ffdb9d275be475307e4336721f0aece58026a8917a6247f517"
+    },
+    {
+      "member": "commonMain/com/github/skydoves/colorpicker/compose/HsvColorPicker.kt",
+      "size": 4046,
+      "sha256": "99a71818ce609b0e6813eb6393be0f0ed1eafcf026166e16b7ee5449cd44bca5"
+    },
+    {
+      "member": "commonMain/com/github/skydoves/colorpicker/compose/HueSlider.kt",
+      "size": 3448,
+      "sha256": "7aa9fd5ab1fe78ca06653bcc7a4e05e5c13a4e7ee3954efa5e31879f93db47ca"
+    },
+    {
+      "member": "commonMain/com/github/skydoves/colorpicker/compose/ImageBitmapExtensions.kt",
+      "size": 1650,
+      "sha256": "9376ed780d188964b049d60364d89137922bbb8e4245a6da83c6edba40dd21a5"
+    },
+    {
+      "member": "commonMain/com/github/skydoves/colorpicker/compose/ImageColorPicker.kt",
+      "size": 6202,
+      "sha256": "4f0cde0f8bf602cb06e024a12b4c7f5b1c54ae00637a012df886c282c3bfe95e"
+    },
+    {
+      "member": "commonMain/com/github/skydoves/colorpicker/compose/PaletteContentScale.kt",
+      "size": 1475,
+      "sha256": "e71784ef646b687b4cf443c5110d2afd8a3bc86f46794bee0de254fb34b0fe9a"
+    },
+    {
+      "member": "commonMain/com/github/skydoves/colorpicker/compose/SaturationSlider.kt",
+      "size": 3373,
+      "sha256": "497c99f8a6e48b4570668c41388b5f804c0d7781a9fb1af3440224c195dbc41c"
+    },
+    {
+      "member": "commonMain/com/github/skydoves/colorpicker/compose/Slider.kt",
+      "size": 7562,
+      "sha256": "fbc4334587bcdd90afbe026619030c83db56e075e3d15db38650d81f1bd9c56a"
+    }
+  ],
+  "upstream": {
+    "coordinate": "com.github.skydoves:colorpicker-compose:1.2.0",
+    "repository": "https://github.com/skydoves/colorpicker-compose",
+    "tag": "1.2.0",
+    "commit": "85f81afbccaf5c0837e402686b8db9d67cc74c59",
+    "tree": "ab0138d7b1bcfacd9f5e6e2bd34c69f0ffc5b1d5",
+    "dependencyDeclarations": "implementation(runtime, foundation, ui), strict explicitApi; root runtime / Native compile and GMM kotlin-api verified separately",
+    "sourceUrl": "https://repo.maven.apache.org/maven2/com/github/skydoves/colorpicker-compose/1.2.0/colorpicker-compose-1.2.0-sources.jar",
+    "buildUrl": "https://raw.githubusercontent.com/skydoves/colorpicker-compose/85f81afbccaf5c0837e402686b8db9d67cc74c59/colorpicker-compose/build.gradle.kts",
+    "scopeReference": "官方 root POM 的四条 runtime，与 iosarm64 leaf POM compile 及 leaf kotlin-api GMM 分层记录；保留源 implementation。"
+  },
+  "publicApi": {
+    "policy": "完整原源为精确签名、注解、默认参数和实现真值；声明索引不重写 ABI，Native dump 只核声明存在，不推断运行结果。",
+    "files": [
+      {
+        "member": "commonMain/com/github/skydoves/colorpicker/compose/AlphaSlider.kt",
+        "declarations": [
+          {
+            "line": 49,
+            "name": "AlphaSlider",
+            "signature": "public fun AlphaSlider(\n  modifier: Modifier = Modifier,\n  controller: ColorPickerController,\n  borderRadius: Dp = 6.dp,\n  borderSize: Dp = 5.dp,\n  borderColor: Color = Color.LightGray,\n  wheelImageBitmap: ImageBitmap? = null,\n  wheelRadius: Dp = 12.dp,\n  wheelColor: Color = Color.White,\n  wheelAlpha: Float = 1.0f,\n  wheelPaint: Paint = Paint().apply {\n    color = wheelColor\n    alpha = wheelAlpha\n  },\n  tileOddColor: Color = defaultTileOddColor,\n  tileEvenColor: Color = defaultTileEvenColor,\n  tileSize: Dp = 12.dp,\n  initialColor: Color? = null,\n  onStart: () -> Unit = {},\n  onFinish: () -> Unit = {},\n) {"
+          }
+        ],
+        "generatedOrImplicitPublicMembers": [],
+        "symbolNames": [
+          "AlphaSlider"
+        ],
+        "coverage": "COMPLETE_ORIGINAL_SOURCE_COMPILE_AND_PUBLICATION_REQUIRED_RUNTIME_NOT_RUN"
+      },
+      {
+        "member": "commonMain/com/github/skydoves/colorpicker/compose/AlphaTile.kt",
+        "declarations": [
+          {
+            "line": 42,
+            "name": "AlphaTile",
+            "signature": "public fun AlphaTile(\n  modifier: Modifier,\n  controller: ColorPickerController? = null,\n  selectedColor: Color = Color.Transparent,\n  tileOddColor: Color = defaultTileOddColor,\n  tileEvenColor: Color = defaultTileEvenColor,\n  tileSize: Dp = 12.dp,\n) {"
+          }
+        ],
+        "generatedOrImplicitPublicMembers": [],
+        "symbolNames": [
+          "AlphaTile"
+        ],
+        "coverage": "COMPLETE_ORIGINAL_SOURCE_COMPILE_AND_PUBLICATION_REQUIRED_RUNTIME_NOT_RUN"
+      },
+      {
+        "member": "commonMain/com/github/skydoves/colorpicker/compose/AlphaTilePaint.kt",
+        "declarations": [],
+        "generatedOrImplicitPublicMembers": [],
+        "symbolNames": [],
+        "coverage": "COMPLETE_ORIGINAL_SOURCE_COMPILE_AND_PUBLICATION_REQUIRED_RUNTIME_NOT_RUN"
+      },
+      {
+        "member": "commonMain/com/github/skydoves/colorpicker/compose/BrightnessSlider.kt",
+        "declarations": [
+          {
+            "line": 43,
+            "name": "BrightnessSlider",
+            "signature": "public fun BrightnessSlider(\n  modifier: Modifier = Modifier,\n  controller: ColorPickerController,\n  borderRadius: Dp = 6.dp,\n  borderSize: Dp = 5.dp,\n  borderColor: Color = Color.LightGray,\n  wheelImageBitmap: ImageBitmap? = null,\n  wheelRadius: Dp = 12.dp,\n  wheelColor: Color = Color.White,\n  wheelAlpha: Float = 1.0f,\n  wheelPaint: Paint = Paint().apply {\n    color = wheelColor\n    alpha = wheelAlpha\n  },\n  initialColor: Color? = null,\n  onStart: () -> Unit = {},\n  onFinish: () -> Unit = {},\n) {"
+          }
+        ],
+        "generatedOrImplicitPublicMembers": [],
+        "symbolNames": [
+          "BrightnessSlider"
+        ],
+        "coverage": "COMPLETE_ORIGINAL_SOURCE_COMPILE_AND_PUBLICATION_REQUIRED_RUNTIME_NOT_RUN"
+      },
+      {
+        "member": "commonMain/com/github/skydoves/colorpicker/compose/CanvasExtensions.kt",
+        "declarations": [],
+        "generatedOrImplicitPublicMembers": [],
+        "symbolNames": [],
+        "coverage": "COMPLETE_ORIGINAL_SOURCE_COMPILE_AND_PUBLICATION_REQUIRED_RUNTIME_NOT_RUN"
+      },
+      {
+        "member": "commonMain/com/github/skydoves/colorpicker/compose/ColorChangeSource.kt",
+        "declarations": [
+          {
+            "line": 23,
+            "name": "ColorChangeSource",
+            "signature": "public enum class ColorChangeSource {"
+          }
+        ],
+        "generatedOrImplicitPublicMembers": [
+          "Tap",
+          "Drag",
+          "Programmatic",
+          "entries",
+          "values",
+          "valueOf"
+        ],
+        "symbolNames": [
+          "ColorChangeSource",
+          "Drag",
+          "Programmatic",
+          "Tap",
+          "entries",
+          "valueOf",
+          "values"
+        ],
+        "coverage": "COMPLETE_ORIGINAL_SOURCE_COMPILE_AND_PUBLICATION_REQUIRED_RUNTIME_NOT_RUN",
+        "enumEntries": [
+          "Tap",
+          "Drag",
+          "Programmatic"
+        ],
+        "languageGeneratedMembers": [
+          {
+            "name": "entries",
+            "owner": "com.github.skydoves.colorpicker.compose/ColorChangeSource",
+            "declaredIrSignatures": [
+              "com.github.skydoves.colorpicker.compose/ColorChangeSource.entries|#static{}entries[0]",
+              "com.github.skydoves.colorpicker.compose/ColorChangeSource.entries.<get-entries>|<get-entries>#static(){}[0]"
+            ]
+          },
+          {
+            "name": "values",
+            "owner": "com.github.skydoves.colorpicker.compose/ColorChangeSource",
+            "declaredIrSignatures": [
+              "com.github.skydoves.colorpicker.compose/ColorChangeSource.values|values#static(){}[0]"
+            ]
+          },
+          {
+            "name": "valueOf",
+            "owner": "com.github.skydoves.colorpicker.compose/ColorChangeSource",
+            "declaredIrSignatures": [
+              "com.github.skydoves.colorpicker.compose/ColorChangeSource.valueOf|valueOf#static(kotlin.String){}[0]"
+            ]
+          }
+        ]
+      },
+      {
+        "member": "commonMain/com/github/skydoves/colorpicker/compose/ColorEnvelope.kt",
+        "declarations": [
+          {
+            "line": 30,
+            "name": "ColorEnvelope",
+            "signature": "public data class ColorEnvelope(\n  val color: Color,\n  val hexCode: String,\n  val fromUser: Boolean,\n  val source: ColorChangeSource = ColorChangeSource.Programmatic,\n)"
+          }
+        ],
+        "generatedOrImplicitPublicMembers": [
+          "color",
+          "hexCode",
+          "fromUser",
+          "source",
+          "copy",
+          "component1",
+          "component2",
+          "component3",
+          "component4",
+          "equals",
+          "hashCode",
+          "toString"
+        ],
+        "symbolNames": [
+          "ColorEnvelope",
+          "color",
+          "component1",
+          "component2",
+          "component3",
+          "component4",
+          "copy",
+          "equals",
+          "fromUser",
+          "hashCode",
+          "hexCode",
+          "source",
+          "toString"
+        ],
+        "coverage": "COMPLETE_ORIGINAL_SOURCE_COMPILE_AND_PUBLICATION_REQUIRED_RUNTIME_NOT_RUN"
+      },
+      {
+        "member": "commonMain/com/github/skydoves/colorpicker/compose/ColorExtensions.kt",
+        "declarations": [],
+        "generatedOrImplicitPublicMembers": [],
+        "symbolNames": [],
+        "coverage": "COMPLETE_ORIGINAL_SOURCE_COMPILE_AND_PUBLICATION_REQUIRED_RUNTIME_NOT_RUN"
+      },
+      {
+        "member": "commonMain/com/github/skydoves/colorpicker/compose/ColorPicker.kt",
+        "declarations": [],
+        "generatedOrImplicitPublicMembers": [],
+        "symbolNames": [],
+        "coverage": "COMPLETE_ORIGINAL_SOURCE_COMPILE_AND_PUBLICATION_REQUIRED_RUNTIME_NOT_RUN"
+      },
+      {
+        "member": "commonMain/com/github/skydoves/colorpicker/compose/ColorPickerController.kt",
+        "declarations": [
+          {
+            "line": 49,
+            "name": "rememberColorPickerController",
+            "signature": "public fun rememberColorPickerController(): ColorPickerController {"
+          },
+          {
+            "line": 60,
+            "name": "ColorPickerController",
+            "signature": "public class ColorPickerController\n@OptIn(DelicateCoroutinesApi::class)\nconstructor(\n  internal val coroutineScope: CoroutineScope = GlobalScope,\n) {"
+          },
+          {
+            "line": 82,
+            "name": "selectedPoint",
+            "signature": "  public val selectedPoint: State<Offset> = _selectedPoint"
+          },
+          {
+            "line": 87,
+            "name": "selectedColor",
+            "signature": "  public val selectedColor: State<Color> = _selectedColor"
+          },
+          {
+            "line": 103,
+            "name": "paletteBitmap",
+            "signature": "  public val paletteBitmap: StateFlow<ImageBitmap?> = _paletteBitmap"
+          },
+          {
+            "line": 106,
+            "name": "wheelBitmap",
+            "signature": "  public var wheelBitmap: ImageBitmap? = null"
+          },
+          {
+            "line": 111,
+            "name": "debounceDuration",
+            "signature": "  public var debounceDuration: Long?"
+          },
+          {
+            "line": 118,
+            "name": "wheelRadius",
+            "signature": "  public var wheelRadius: Dp = 12.dp"
+          },
+          {
+            "line": 125,
+            "name": "wheelPaint",
+            "signature": "  public var wheelPaint: Paint = Paint().apply { color = Color.White }"
+          },
+          {
+            "line": 132,
+            "name": "wheelColor",
+            "signature": "  public var wheelColor: Color"
+          },
+          {
+            "line": 140,
+            "name": "wheelAlpha",
+            "signature": "  public var wheelAlpha: Float"
+          },
+          {
+            "line": 150,
+            "name": "enabled",
+            "signature": "  public var enabled: Boolean"
+          },
+          {
+            "line": 170,
+            "name": "getColorFlow",
+            "signature": "  public fun getColorFlow(debounceDuration: Long = 0): Flow<ColorEnvelope> ="
+          },
+          {
+            "line": 200,
+            "name": "selectByCoordinate",
+            "signature": "  public fun selectByCoordinate(x: Float, y: Float, fromUser: Boolean) {"
+          },
+          {
+            "line": 210,
+            "name": "selectByCoordinate",
+            "signature": "  public fun selectByCoordinate(\n    point: Offset,\n    fromUser: Boolean,\n    source: ColorChangeSource = ColorChangeSource.Programmatic,\n  ) {"
+          },
+          {
+            "line": 226,
+            "name": "selectCenter",
+            "signature": "  public fun selectCenter(fromUser: Boolean) {"
+          },
+          {
+            "line": 236,
+            "name": "selectByColor",
+            "signature": "  public fun selectByColor(color: Color, fromUser: Boolean) {"
+          },
+          {
+            "line": 248,
+            "name": "selectByHsv",
+            "signature": "  public fun selectByHsv(hsv: FloatArray, alpha: Float, fromUser: Boolean) {"
+          },
+          {
+            "line": 261,
+            "name": "selectByHsv",
+            "signature": "  public fun selectByHsv(h: Float, s: Float, v: Float, alpha: Float, fromUser: Boolean) {"
+          },
+          {
+            "line": 271,
+            "name": "setAlpha",
+            "signature": "  public fun setAlpha(\n    alpha: Float,\n    fromUser: Boolean,\n    source: ColorChangeSource = ColorChangeSource.Programmatic,\n  ) {"
+          },
+          {
+            "line": 282,
+            "name": "setHue",
+            "signature": "  public fun setHue(\n    hue: Float,\n    fromUser: Boolean,\n    source: ColorChangeSource = ColorChangeSource.Programmatic,\n  ) {"
+          },
+          {
+            "line": 293,
+            "name": "setBrightness",
+            "signature": "  public fun setBrightness(\n    brightness: Float,\n    fromUser: Boolean,\n    source: ColorChangeSource = ColorChangeSource.Programmatic,\n  ) {"
+          },
+          {
+            "line": 304,
+            "name": "setSaturation",
+            "signature": "  public fun setSaturation(\n    saturation: Float,\n    fromUser: Boolean,\n    source: ColorChangeSource = ColorChangeSource.Programmatic,\n  ) {"
+          },
+          {
+            "line": 393,
+            "name": "setPaletteImageBitmap",
+            "signature": "  public fun setPaletteImageBitmap(imageBitmap: ImageBitmap) {"
+          }
+        ],
+        "generatedOrImplicitPublicMembers": [],
+        "symbolNames": [
+          "ColorPickerController",
+          "debounceDuration",
+          "enabled",
+          "getColorFlow",
+          "paletteBitmap",
+          "rememberColorPickerController",
+          "selectByColor",
+          "selectByCoordinate",
+          "selectByHsv",
+          "selectCenter",
+          "selectedColor",
+          "selectedPoint",
+          "setAlpha",
+          "setBrightness",
+          "setHue",
+          "setPaletteImageBitmap",
+          "setSaturation",
+          "wheelAlpha",
+          "wheelBitmap",
+          "wheelColor",
+          "wheelPaint",
+          "wheelRadius"
+        ],
+        "coverage": "COMPLETE_ORIGINAL_SOURCE_COMPILE_AND_PUBLICATION_REQUIRED_RUNTIME_NOT_RUN"
+      },
+      {
+        "member": "commonMain/com/github/skydoves/colorpicker/compose/DefaultColors.kt",
+        "declarations": [],
+        "generatedOrImplicitPublicMembers": [],
+        "symbolNames": [],
+        "coverage": "COMPLETE_ORIGINAL_SOURCE_COMPILE_AND_PUBLICATION_REQUIRED_RUNTIME_NOT_RUN"
+      },
+      {
+        "member": "commonMain/com/github/skydoves/colorpicker/compose/DrawScopeExtensions.kt",
+        "declarations": [
+          {
+            "line": 26,
+            "name": "drawColorIndicator",
+            "signature": "public fun DrawScope.drawColorIndicator(pos: Offset, color: Color) {"
+          }
+        ],
+        "generatedOrImplicitPublicMembers": [],
+        "symbolNames": [
+          "drawColorIndicator"
+        ],
+        "coverage": "COMPLETE_ORIGINAL_SOURCE_COMPILE_AND_PUBLICATION_REQUIRED_RUNTIME_NOT_RUN"
+      },
+      {
+        "member": "commonMain/com/github/skydoves/colorpicker/compose/GeometryExtensions.kt",
+        "declarations": [],
+        "generatedOrImplicitPublicMembers": [],
+        "symbolNames": [],
+        "coverage": "COMPLETE_ORIGINAL_SOURCE_COMPILE_AND_PUBLICATION_REQUIRED_RUNTIME_NOT_RUN"
+      },
+      {
+        "member": "commonMain/com/github/skydoves/colorpicker/compose/HsvColorGradient.kt",
+        "declarations": [],
+        "generatedOrImplicitPublicMembers": [],
+        "symbolNames": [],
+        "coverage": "COMPLETE_ORIGINAL_SOURCE_COMPILE_AND_PUBLICATION_REQUIRED_RUNTIME_NOT_RUN"
+      },
+      {
+        "member": "commonMain/com/github/skydoves/colorpicker/compose/HsvColorPicker.kt",
+        "declarations": [
+          {
+            "line": 47,
+            "name": "HsvColorPicker",
+            "signature": "public fun HsvColorPicker(\n  modifier: Modifier,\n  controller: ColorPickerController,\n  wheelImageBitmap: ImageBitmap? = null,\n  drawOnPosSelected: (DrawScope.() -> Unit)? = null,\n  drawDefaultWheelIndicator: Boolean = wheelImageBitmap == null && drawOnPosSelected == null,\n  onColorChanged: (colorEnvelope: ColorEnvelope) -> Unit = {},\n  onStart: () -> Unit = {},\n  onFinish: () -> Unit = {},\n  initialColor: Color? = null,\n) {"
+          }
+        ],
+        "generatedOrImplicitPublicMembers": [],
+        "symbolNames": [
+          "HsvColorPicker"
+        ],
+        "coverage": "COMPLETE_ORIGINAL_SOURCE_COMPILE_AND_PUBLICATION_REQUIRED_RUNTIME_NOT_RUN"
+      },
+      {
+        "member": "commonMain/com/github/skydoves/colorpicker/compose/HueSlider.kt",
+        "declarations": [
+          {
+            "line": 46,
+            "name": "HueSlider",
+            "signature": "public fun HueSlider(\n  modifier: Modifier = Modifier,\n  controller: ColorPickerController,\n  borderRadius: Dp = 6.dp,\n  borderSize: Dp = 5.dp,\n  borderColor: Color = Color.LightGray,\n  wheelImageBitmap: ImageBitmap? = null,\n  wheelRadius: Dp = 12.dp,\n  wheelColor: Color = Color.White,\n  wheelAlpha: Float = 1.0f,\n  wheelPaint: Paint = Paint().apply {\n    color = wheelColor\n    alpha = wheelAlpha\n  },\n  initialColor: Color? = null,\n  onColorChanged: (ColorChangeSource, Float) -> Unit = { _, _ -> },\n  onStart: () -> Unit = {},\n  onFinish: () -> Unit = {},\n) {"
+          }
+        ],
+        "generatedOrImplicitPublicMembers": [],
+        "symbolNames": [
+          "HueSlider"
+        ],
+        "coverage": "COMPLETE_ORIGINAL_SOURCE_COMPILE_AND_PUBLICATION_REQUIRED_RUNTIME_NOT_RUN"
+      },
+      {
+        "member": "commonMain/com/github/skydoves/colorpicker/compose/ImageBitmapExtensions.kt",
+        "declarations": [],
+        "generatedOrImplicitPublicMembers": [],
+        "symbolNames": [],
+        "coverage": "COMPLETE_ORIGINAL_SOURCE_COMPILE_AND_PUBLICATION_REQUIRED_RUNTIME_NOT_RUN"
+      },
+      {
+        "member": "commonMain/com/github/skydoves/colorpicker/compose/ImageColorPicker.kt",
+        "declarations": [
+          {
+            "line": 49,
+            "name": "ImageColorPicker",
+            "signature": "public fun ImageColorPicker(\n  modifier: Modifier,\n  controller: ColorPickerController,\n  paletteImageBitmap: ImageBitmap,\n  wheelImageBitmap: ImageBitmap? = null,\n  drawOnPosSelected: (DrawScope.() -> Unit)? = null,\n  drawDefaultWheelIndicator: Boolean = wheelImageBitmap == null && drawOnPosSelected == null,\n  paletteContentScale: PaletteContentScale = PaletteContentScale.FIT,\n  previewImagePainter: Painter? = null,\n  onColorChanged: (colorEnvelope: ColorEnvelope) -> Unit = {},\n  onStart: () -> Unit = {},\n  onFinish: () -> Unit = {},\n) {"
+          }
+        ],
+        "generatedOrImplicitPublicMembers": [],
+        "symbolNames": [
+          "ImageColorPicker"
+        ],
+        "coverage": "COMPLETE_ORIGINAL_SOURCE_COMPILE_AND_PUBLICATION_REQUIRED_RUNTIME_NOT_RUN"
+      },
+      {
+        "member": "commonMain/com/github/skydoves/colorpicker/compose/PaletteContentScale.kt",
+        "declarations": [
+          {
+            "line": 19,
+            "name": "PaletteContentScale",
+            "signature": "public enum class PaletteContentScale {"
+          }
+        ],
+        "generatedOrImplicitPublicMembers": [
+          "FIT",
+          "CROP",
+          "entries",
+          "values",
+          "valueOf"
+        ],
+        "symbolNames": [
+          "CROP",
+          "FIT",
+          "PaletteContentScale",
+          "entries",
+          "valueOf",
+          "values"
+        ],
+        "coverage": "COMPLETE_ORIGINAL_SOURCE_COMPILE_AND_PUBLICATION_REQUIRED_RUNTIME_NOT_RUN",
+        "enumEntries": [
+          "FIT",
+          "CROP"
+        ],
+        "languageGeneratedMembers": [
+          {
+            "name": "entries",
+            "owner": "com.github.skydoves.colorpicker.compose/PaletteContentScale",
+            "declaredIrSignatures": [
+              "com.github.skydoves.colorpicker.compose/PaletteContentScale.entries|#static{}entries[0]",
+              "com.github.skydoves.colorpicker.compose/PaletteContentScale.entries.<get-entries>|<get-entries>#static(){}[0]"
+            ]
+          },
+          {
+            "name": "values",
+            "owner": "com.github.skydoves.colorpicker.compose/PaletteContentScale",
+            "declaredIrSignatures": [
+              "com.github.skydoves.colorpicker.compose/PaletteContentScale.values|values#static(){}[0]"
+            ]
+          },
+          {
+            "name": "valueOf",
+            "owner": "com.github.skydoves.colorpicker.compose/PaletteContentScale",
+            "declaredIrSignatures": [
+              "com.github.skydoves.colorpicker.compose/PaletteContentScale.valueOf|valueOf#static(kotlin.String){}[0]"
+            ]
+          }
+        ]
+      },
+      {
+        "member": "commonMain/com/github/skydoves/colorpicker/compose/SaturationSlider.kt",
+        "declarations": [
+          {
+            "line": 45,
+            "name": "SaturationSlider",
+            "signature": "public fun SaturationSlider(\n  modifier: Modifier = Modifier,\n  controller: ColorPickerController,\n  borderRadius: Dp = 6.dp,\n  borderSize: Dp = 5.dp,\n  borderColor: Color = Color.LightGray,\n  wheelImageBitmap: ImageBitmap? = null,\n  wheelRadius: Dp = 12.dp,\n  wheelColor: Color = Color.White,\n  wheelAlpha: Float = 1.0f,\n  wheelPaint: Paint = Paint().apply {\n    color = wheelColor\n    alpha = wheelAlpha\n  },\n  initialColor: Color? = null,\n  onStart: () -> Unit = {},\n  onFinish: () -> Unit = {},\n) {"
+          }
+        ],
+        "generatedOrImplicitPublicMembers": [],
+        "symbolNames": [
+          "SaturationSlider"
+        ],
+        "coverage": "COMPLETE_ORIGINAL_SOURCE_COMPILE_AND_PUBLICATION_REQUIRED_RUNTIME_NOT_RUN"
+      },
+      {
+        "member": "commonMain/com/github/skydoves/colorpicker/compose/Slider.kt",
+        "declarations": [],
+        "generatedOrImplicitPublicMembers": [],
+        "symbolNames": [],
+        "coverage": "COMPLETE_ORIGINAL_SOURCE_COMPILE_AND_PUBLICATION_REQUIRED_RUNTIME_NOT_RUN"
+      }
+    ],
+    "runtimeCoverage": "仅由 Root 记录真实 Dialog HSV/Brightness/推荐色/关闭重开操作",
+    "unrunApis": "全部未用 API 仅完整编译和发布，不新增独立 runtime 夹具。"
+  },
+  "sources": {
+    "path": "vendor/colorpicker-compose-1.2.0-sources.jar",
+    "size": 31132,
+    "sha256": "c93a70281c1851438fadcbdf57fa8b70ce501077f849c5436f411011aa43636f"
+  },
+  "pom": {
+    "path": "vendor/colorpicker-compose-1.2.0.pom",
+    "size": 2479,
+    "sha256": "8c15d1d5adf192a307bb314a9201e45d4c57ddefc254f1e3c5dc65cb6b7a3ddb"
+  },
+  "gmm": {
+    "path": "vendor/colorpicker-compose-1.2.0.module",
+    "size": 19523,
+    "sha256": "a3b62a8be15a1d1822bb8a2a0eb191d9f3ae00e7c484d19c3c2e4c91987e7415"
+  },
+  "upstreamBuild": {
+    "path": "vendor/upstream-build.gradle.kts",
+    "size": 3287,
+    "sha256": "a06936082e3350256c319a709af11af7f68d670548d830c110984a7b2f263903"
+  },
+  "license": {
+    "path": "legal/LICENSE",
+    "size": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  "nativeReferencePom": {
+    "path": "vendor/reference-iosarm64.pom",
+    "size": 2541,
+    "sha256": "f45d9af88a5c1c0fa66c2effa6e3dda60341f6c34c793d6194fadcac66932c37"
+  },
+  "nativeReferenceGmm": {
+    "path": "vendor/reference-iosarm64.module",
+    "size": 6364,
+    "sha256": "9fa0424529405c1e904802a6c54acd580b8c60831de7c581b84ec3ad30dc9258"
+  }
+}
